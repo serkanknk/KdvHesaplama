@@ -11,7 +11,7 @@ namespace KdvHesaplama
         static void Main(string[] args)
         {
 
-            Console.Title = "KDV Hesaplama";
+            Console.Title = "KDV Hesaplama1";
 
             Console.Write("Ürünün Fiyatı giriniz:");
             double fiyat = double.Parse(Console.ReadLine());
@@ -25,6 +25,7 @@ namespace KdvHesaplama
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Ürün Fiyatı={0}", fiyat);
             Console.WriteLine("Ürünün kdv'li fiyatı={0}", kdvFiyat);
+
             Console.ReadLine();
         }
     }
